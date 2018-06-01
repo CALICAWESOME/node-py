@@ -17,4 +17,4 @@ while 1:
 	print('PYTHON: received: ', data)
 	print('PYTHON: sending: ', data)
 	conn.send(data) # ECHO!!!
-
+conn.close()
