@@ -23,4 +23,3 @@ client.on('data', data => {
 client.on('end', () => {
 	console.log('JS: disconnected!');
 });
-
